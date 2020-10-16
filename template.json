@@ -30,7 +30,7 @@
     "lint-staged": {
       "**/*.{js,jsx,ts,tsx}": [
       "prettier --write",
-      "eslint --cache --ext '.js,.jsx,.ts,.tsx' --fix"
+      "eslint --cache --ext '.js,.jsx' --fix"
       ],
       "*.scss": "stylelint --syntax=scss"
     }
