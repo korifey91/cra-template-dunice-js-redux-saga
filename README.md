@@ -35,6 +35,7 @@ The CRA Custom Template does not yet have support for `devDependencies`, so I re
     "lint": "eslint --ext .js,.jsx ./src"
   },
   "dependencies": {
+    "node-sass": "^4.14.1",
     "@reduxjs/toolkit": "^1.4.0",
     "axios": "^0.20.0",
     "qs": "^6.9.4",
